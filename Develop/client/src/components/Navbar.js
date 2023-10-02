@@ -15,11 +15,11 @@ const AppNavbar = () => {
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container fluid>
           <Navbar.Brand as={Link} to='/'>
-            Google Books Search
+            Book Search Engine
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
-          <Navbar.Collapse id='navbar' className='d-flex flex-row-reverse'>
-            <Nav className='ml-auto d-flex'>
+          <Navbar.Collapse id='navbar'>
+            <Nav className='ml-auto'>
               <Nav.Link as={Link} to='/'>
                 Search For Books
               </Nav.Link>
